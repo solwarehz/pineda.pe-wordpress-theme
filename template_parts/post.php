@@ -4,7 +4,7 @@
         the_title('<h1 class="text-center text-primary">','</h1>');
         the_category();
         if (has_post_thumbnail()) {
-            the_post_thumbnail('full', array('class' => 'imgagen-destacada') );
+            the_post_thumbnail('medium', array('class' => 'imgagen-destacada') );
         }
         ?>
         <div class="meta-info">
